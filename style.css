@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1.4rem;
+  padding: 2.4rem;
+  width: 32.8rem;
+}
+
+.img {
+  position: relative;
+}
+
+.nft-img {
+  width: 28rem;
+  border-radius: 1.4rem;
+  margin-bottom: 2rem;
+  padding: relative;
+}
+
+.view {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 28rem;
+  height: 28rem;
+  border-radius: 1.4rem;
+  background-color: hsla(178, 100%, 50%, 0.568);
+  opacity: 0;
+}
+
+.view img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.view:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.tertiary-heading {
+  font-size: 2.4rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.text {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  padding: 2.8rem 0;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 1.4rem;
+}
+
+.align-row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+#nft-text {
+  color: hsl(178, 100%, 50%);
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+}
+
+.creator-img {
+  width: 3.4rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+#creator-name {
+  color: hsl(0, 0%, 100%);
+}
+
+#creator-name:hover,
+.tertiary-heading:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
