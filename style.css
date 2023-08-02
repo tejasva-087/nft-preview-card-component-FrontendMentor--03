@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .box {
@@ -28,6 +29,7 @@ body {
   border-radius: 1.4rem;
   padding: 2.4rem;
   width: 32.8rem;
+  margin-bottom: 1.4rem;
 }
 
 .img {
@@ -116,4 +118,12 @@ body {
 .tertiary-heading:hover {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
